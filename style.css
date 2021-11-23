@@ -724,10 +724,15 @@ h3 {
 
 h1 {
     color: #333333!important;
+    text-shadow: 1px 1px 6px black;
 }
 
 h4 {
     color: #333333!important;
+}
+
+h1 + p , footer p {
+    text-shadow: 1px 3px 6px black;
 }
 
 p {
@@ -736,6 +741,18 @@ p {
 
 p strong {
     font-size: 18px;
+}
+
+#bloc-3-what-i-do h2 {
+    text-shadow: 1px 3px 6px black;
+}
+
+#bloc-3-what-i-do p {
+    text-shadow: -4px -5px 7px black;
+}
+
+#bloc-5-cta h2 {
+    text-shadow: -5px -5px 7px black;
 }
 
 .icons {
