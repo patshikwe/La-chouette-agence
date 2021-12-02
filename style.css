@@ -749,7 +749,7 @@ p strong {
 }
 
 #bloc-3-what-i-do p {
-    text-shadow: -4px -5px 7px black;
+    text-shadow:  1px 1px 7px black;
 }
 
 #bloc-5-cta h2 {
@@ -806,6 +806,10 @@ p strong {
 
 .tc-white {
     color: #F3976C!important;
+}
+
+.tc-atomic {
+    color: #FFE0A3!important;
 }
 
 .btn-atomic-tangerine {
