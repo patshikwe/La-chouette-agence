@@ -882,7 +882,7 @@ p strong {
     }
 }
 
-@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
+/* @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
     .b-parallax {
         background-attachment: scroll;
     }
@@ -892,7 +892,7 @@ p strong {
     .b-parallax {
         background-attachment: scroll;
     }
-}
+} */
 
 @media (max-width: 991px) {
     .container {
@@ -906,7 +906,7 @@ p strong {
         overflow-x: hidden;
         position: relative;
     }
-    
+
     .bloc-group,
     .bloc-group .bloc {
         display: block;
@@ -915,8 +915,6 @@ p strong {
     .bloc-fill-screen .fill-bloc-top-edge,
     .bloc-fill-screen .fill-bloc-bottom-edge {
         padding: 0 20px;
-        padding-left: constant(safe-area-inset-left);
-        padding-right: constant(safe-area-inset-right);
     }
 }
 
