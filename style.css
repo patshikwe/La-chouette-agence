@@ -883,18 +883,6 @@ p strong {
     }
 }
 
-/* @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
-    .b-parallax {
-        background-attachment: scroll;
-    }
-}
-
-@media only screen and (min-device-width: 1024px) and (max-device-width: 1366px) and (-webkit-min-device-pixel-ratio: 1.5) {
-    .b-parallax {
-        background-attachment: scroll;
-    }
-} */
-
 @media (max-width: 991px) {
     .container {
         width: 100%;
@@ -1056,6 +1044,13 @@ p strong {
         width: 180px;
         height: 320px;
     }
+}
+
+@media (max-width: 310px) {
+    .navbar-toggle {
+        position: absolute;
+        right: -6%;
+    }  
 }
 
 @media (max-width: 400px) {
