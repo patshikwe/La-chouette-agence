@@ -28,7 +28,7 @@ _Je suis sollicité pour régler le problème de **référencement(SEO)**._
 2. Github : hébergement
 
 ### Images avant mon intervention sur le site
-![Images de l'agence](Starting_website.gif)
+[![Images de l'agence](Starting_website.gif)](#)
 
 ## Resultat après mon intervention
 Pour voir la page web du site : [patshikwe/La chouette agence](https://patshikwe.github.io/tshimpakakwekwepatrick_4_25102021/)
