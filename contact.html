@@ -7,7 +7,7 @@
 	<meta name="description"
 		content="La chouette agence en région Lyonnaise pour la création de votre site internet. Contactez-nous!">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
-	<meta name="Robots" content="follow"/>
+	<meta name="Robots" content="follow" />
 
 	<link rel="shortcut icon" type="image/png" href="favicon.png">
 
@@ -25,7 +25,7 @@
 	<title>La Chouette Agence à Lyon : Contactez-nous pour la conception de votre site web</title>
 
 	<!-- Analytics -->
-	
+
 	<!-- Analytics END -->
 
 </head>
@@ -89,35 +89,53 @@
 
 			<!-- bloc-7 -->
 			<div class="bloc bgc-white l-bloc" id="bloc-7">
+				<div id="modalInfo" class="curtain dspl-none">
+					<div class="modal-info">
+						<div>
+							<p>
+								Ce formulaire est un modèle de contact.<br />
+								Il n'est pas actif pour l'envoie des données.<br>
+								Pour contacter le développeur de ce site vitrine, veuillez utiliser l'icône Github.<br>
+								Vous serez redirigé vers la page du développeur. <br>
+								Dans la section contact de sa page, vous aurez les options de contact.
+							</p>
+							<a href="https://github.com/patshikwe">
+								<img src="img/github-gris.png" class="icon-wid" alt="Github de patshikwe">
+							</a>
+						</div>
+						<button class="btn-modal btn-atomic-tangerine">Annuler</button>
+					</div>
+				</div>
 				<div class="container bloc-lg">
 					<div class="row">
 						<div class="col-sm-6">
 							<form id="form_1">
 								<div class="form-group">
-									<label>
+									<label for="name">
 										Nom
 									</label>
 									<input id="name" class="form-control" required />
 								</div>
 								<div class="form-group">
-									<label>
+									<label for="email">
 										Adresse email
 									</label>
 									<input id="email" class="form-control" type="email" required />
 								</div>
 								<div class="form-group">
-									<label>
+									<label for="input_504">
 										Comment nous avez-vous connu ?
 									</label>
-									<input class="form-control" type="email" required id="input_504" />
+									<input class="form-control" type="text" required id="input_504" />
 								</div>
 								<div class="form-group">
-									<label>
+									<label for="message">
 										Brief de votre projet (Ajoutez autant de détails que nécessaire)<br>
 									</label><textarea id="message" class="form-control" rows="4" cols="50"
 										required></textarea>
 								</div>
-								<button class="bloc-button btn btn-lg btn-block cta-hero btn-atomic-tangerine"
+								<button id="submitForm"
+									class="bloc-button btn btn-lg btn-block cta-hero btn-atomic-tangerine"
 									type="submit">
 									Envoyer
 								</button>
@@ -164,14 +182,16 @@
 								</div>
 								<div class="col-sm-3">
 									<div class="text-center">
-										<a class="social" href="index.html"><span class="fa fa-dribbble icon-md"
-												title="Dribbble"></span></a>
+										<a class="social" href="index.html"><span class="fa fa-instagram icon-md"
+												title="Instagram"></span></a>
 									</div>
 								</div>
 								<div class="col-sm-3">
 									<div class="text-center">
-										<a class="social" href="index.html"><span class="fa fa-instagram icon-md"
-												title="Instagram"></span></a>
+										<a class="social" href="https://github.com/patshikwe"
+											title="Vous serez redirigé vers la page du développeur patshikwe">
+											<img src="img/github-gris.png" class="icon-wid" alt="Github de patshikwe">
+										</a>
 									</div>
 								</div>
 							</div>
