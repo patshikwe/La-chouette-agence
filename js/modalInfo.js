@@ -13,6 +13,7 @@ function modalInfo() {
     const errorInput504 = document.querySelector("#errorInput504")
     const message = document.querySelector("#message")
     const errorMessage = document.querySelector("#errorMessage")
+    const contact = document.querySelector("#contact")
 
     let input504LengthMin = 5
     let input504Length = 50
@@ -120,8 +121,18 @@ function modalInfo() {
     })
 
 
-    // Masque la fenêtre modale
+    // Fermer la fenêtre modale et vider les inputs
     btnCancel.onclick = () => {
+        modalInfo.classList.add("dspl-none")
+        name.value = ""
+        email.value = ""
+        input504.value = ""
+        message.value = ""
+    }
+
+
+    // Fermer la fenêtre modale et vider les inputs
+    contact.onclick = () => {
         modalInfo.classList.add("dspl-none")
         name.value = ""
         email.value = ""
